@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Currnecies-Converter/static/css/main.72636e3c.css",
+    "main.js": "/Currnecies-Converter/static/js/main.39f97438.js",
+    "index.html": "/Currnecies-Converter/index.html",
+    "main.72636e3c.css.map": "/Currnecies-Converter/static/css/main.72636e3c.css.map",
+    "main.39f97438.js.map": "/Currnecies-Converter/static/js/main.39f97438.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72636e3c.css",
+    "static/js/main.39f97438.js"
+  ]
+}
