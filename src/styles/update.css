@@ -1,0 +1,151 @@
+/* Display on mobile */
+@media(max-width:768px) {
+    .update {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 310px;
+        height: 30px;
+    }
+
+    th {
+        background-color: deepskyblue;
+    }
+
+    td {
+        vertical-align: middle;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        gap: 25px;
+    }
+
+    .currencyInputs {
+        width: 300px;
+        border-radius: 5px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .updatePageBtns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25px;
+        gap: 25px;
+    }
+
+    #addUpdate,
+    #back {
+        width: 310px;
+        height: 50px;
+        font-size: medium;
+    }
+
+    #addUpdate {
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+    }
+
+    #back {
+        background-color: white;
+        border: 1px solid dodgerblue;
+        border-radius: 5px;
+        color: dodgerblue;
+        font-weight: bold;
+    }
+
+}
+
+/* Display on desktop */
+@media(min-width:1200px) {
+    .update {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 500px;
+        height: 30px;
+    }
+
+    th {
+        background-color: deepskyblue;
+    }
+
+    td {
+        vertical-align: middle;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .currencyInputs {
+        width: 485px;
+        border-radius: 5px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+
+    .updatePageBtns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25px;
+        gap: 25px;
+    }
+
+    #addUpdate,
+    #back {
+        width: 500px;
+        height: 40px;
+    }
+
+    #addUpdate {
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+    }
+
+    #back {
+        background-color: white;
+        border: 2px solid dodgerblue;
+        border-radius: 5px;
+        color: dodgerblue;
+        font-weight: bold;
+    }
+
+    #back:hover {
+        background-color: rgb(92, 154, 175) !important;
+        border: none !important;
+        color: white !important;
+        cursor: pointer;
+    }
+}

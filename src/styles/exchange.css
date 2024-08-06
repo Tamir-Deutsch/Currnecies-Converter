@@ -1,0 +1,24 @@
+.exchange {
+    height: 120px;
+    background-color: darkblue;
+    border-radius: 5px;
+    margin: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+.removeBtn {
+    background-color: lightcyan;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    bottom: 12px;
+    color: darkblue;
+}
+
+.removeBtn:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
